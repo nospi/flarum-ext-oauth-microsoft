@@ -9,14 +9,14 @@
  *  file that was distributed with this source code.
  */
 
-namespace xrh0905\OAuthMicrosoft\Providers;
+namespace nospi\OAuthMicrosoft\Providers;
 
 use Flarum\Extend\Console;
 use Flarum\Forum\Auth\Registration;
 use FoF\OAuth\Provider;
 use League\OAuth2\Client\Provider\AbstractProvider;
-use Stevenmaguire\OAuth2\Client\Provider\Microsoft as MicrosoftProvider;
-use Stevenmaguire\OAuth2\Client\Provider\MicrosoftResourceOwner;
+use nospi\OAuth2\Client\Provider\Microsoft as MicrosoftProvider;
+use nospi\OAuth2\Client\Provider\MicrosoftResourceOwner;
 
 class Microsoft extends Provider
 {
