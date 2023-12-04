@@ -1,23 +1,20 @@
 # Log In With Microsoft
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/xrh0905/oauth-microsoft.svg)](https://packagist.org/packages/xrh0905/oauth-microsoft) [![Total Downloads](https://img.shields.io/packagist/dt/xrh0905/oauth-microsoft.svg)](https://packagist.org/packages/xrh0905/oauth-microsoft)
-
-![](https://extiverse.com/extension/xrh0905/oauth-microsoft/open-graph-image)
-
-Log in to your Flarum forum with Microsoft. An addon for [FoF OAuth](https://github.com/friendsofflarum/oauth)
+Log in to your Flarum forum with Microsoft. Supports personal and organisational accounts. 
+An addon for [FoF OAuth](https://github.com/friendsofflarum/oauth)
 
 ## Installation
 
 Install with composer:
 
 ```sh
-composer require xrh0905/oauth-microsoft
+composer require nospi/oauth-microsoft
 ```
 
 ## Updating
 
 ```sh
-composer update xrh0905/oauth-microsoft
+composer update nospi/oauth-microsoft
 ```
 
 ## Setup
@@ -27,6 +24,6 @@ composer update xrh0905/oauth-microsoft
 
 ## Links
 
-- [Packagist](https://packagist.org/packages/xrh0905/oauth-microsoft)
-- [GitHub](https://github.com/xrh0905/flarum-ext-oauth-microsoft)
-- [Discuss](https://github.com/xrh0905/flarum-ext-oauth-microsoft/issues)
+- [Packagist](https://packagist.org/packages/nospi/oauth-microsoft)
+- [GitHub](https://github.com/nospi/flarum-ext-oauth-microsoft)
+- [Discuss](https://github.com/nospi/flarum-ext-oauth-microsoft/issues)
