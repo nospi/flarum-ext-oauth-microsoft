@@ -59,7 +59,9 @@ class Microsoft extends Provider
 
         $registration
             ->provideTrustedEmail($email)
-            ->suggestUsername(str_replace(' ', '', trim($user->getName())))
+            // ->suggestUsername(str_replace(' ', '', trim($user->getName())))
+            // we can have spaces as we're using nicknames
+            ->suggestUsername(trim($user->getGivenName() ." ". $user->getSurname()))
             ->setPayload($user->toArray());
     }
 }
